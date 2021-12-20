@@ -1,5 +1,22 @@
 # iReStream
-ReStream RTMP source to any social media.
+iReStream is a system that allows non-technical people, with the help of their friends, to broadcast a single video source to multiple social media account without relying on third party re-stream services.
+
+The system consist of:
+The "server" part, which is the tool that will most likely run on the machine that stream the content with an app such as OBS or alike
+The "repeater" part, which will run on your friends computers that will grab the content from the server part and re-stream it to their own social media account
+
+The tool is now compatible with Windows 64 bits but with some help could extend to linux and macos as well.
+
+We'll assume that you're using OBS as a stream source for this setup example.
+
+To start using the system, you have to install the server part on the same machine that is running obs.
+When running iReStream Server, it will let you know what configuration you have to put in your obs streaming setting.
+It will also let you know what is going to be your public streaming adress.
+The tool will also try to open the required ports with the upnp protocol.
+
+On your friend side, when running the app, you'll have to provide the server public streaming adress
+Your friend will have to go to its social media Live Producer page and get their stream key and paste it in the app.
+
 
 This small program is designed to grab rtmp content from a computer and allow multiple friends to re-stream the same content on multiple social media account without using paid re-stream services.
 
