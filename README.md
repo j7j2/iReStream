@@ -2,8 +2,9 @@
 iReStream is a system that allows non-technical people, with the help of their friends, to broadcast a single video source to multiple social media account without relying on third party re-stream services.
 
 The system consist of:
-The "server" part, which is the tool that will most likely run on the machine that stream the content with an app such as OBS or alike
-The "repeater" part, which will run on your friends computers that will grab the content from the server part and re-stream it to their own social media account
+
+- The "server" part, which is the tool that will most likely run on the machine that stream the content with an app such as OBS or alike
+- The "repeater" part, which will run on your friends computers that will grab the content from the server part and re-stream it to their own social media account
 
 The tool is now compatible with Windows 64 bits but with some help could extend to linux and macos as well.
 
